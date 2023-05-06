@@ -1,6 +1,6 @@
 import React from 'react';
-import hljs from 'highlight.js'; // eslint-disable-line import/no-extraneous-dependencies
-import 'highlight.js/styles/github-gist.css'; // eslint-disable-line import/no-extraneous-dependencies
+import hljs from 'highlight.js';
+import 'highlight.js/styles/github-gist.css'; 
 import styles from './SourceView.css';
 
 class SourceView extends React.Component {

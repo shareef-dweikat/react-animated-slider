@@ -1,5 +1,5 @@
 import React from 'react';
-import { render } from 'react-dom'; // eslint-disable-line import/no-extraneous-dependencies
+import { render } from 'react-dom';
 import Header from './Header';
 import styles from './styles.css';
 import Shields from './Shields';

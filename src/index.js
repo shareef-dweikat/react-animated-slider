@@ -21,18 +21,6 @@ const DEFAULT_CLASSNAMES = {
 };
 const DEFAULT_DURATION = 2000;
 
-const arrowTransforms = {
-	up: 'rotate(90 10 15)',
-	down: 'rotate(270 10 15)',
-	left: 'rotate(180 10 15)',
-	right: 'rotate(0 10 15)',
-};
-function Arrow({ direction = 'right' }) {
-	return (
-		<div>Arrrow</div>
-	);
-}
-
 class Slider extends React.PureComponent {
 	constructor(props) {
 		super(props);
